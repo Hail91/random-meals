@@ -1,13 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Oregano&display=swap');
-
 .App {
   text-align: center;
 }
 
-.recipe-cont {
+.main-cont {
   display: flex;
-  justify-content: center;
-  margin-top: 8%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'oregano', cursive;
+  margin-top: 5%;
 }
+
+.main-cont li {
+  list-style: none;
+}
+
+.main-cont h2 {
+  text-decoration: underline;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+
 
 

@@ -21,18 +21,15 @@ const useStyles = makeStyles(theme => ({
         flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundImage: "url(https://images.unsplash.com/photo-1495195134817-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80)",
+        backgroundImage: "url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80)",
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         margin: '0 auto'
     },
     splashbtns: {
-        width: 100,
-        marginTop: 20,
-        backgroundColor: '#c62828',
-        '&:hover': {
-            backgroundColor: '#e53935'
-        }
+        width: 150,
+        marginTop: 10,
+        background: 'linear-gradient(45deg, #c62822 30%, #ff8e53 90%)',
     },
     btnCont: {
         display: 'flex',
@@ -57,7 +54,7 @@ const GetStarted = props => {
                 <Container className={classes.containerStyle} maxWidth="100%" style = {{height: '100vh', width: '100vw'}} >
                     <Paper className={classes.root}>
                         <Typography variant="h4" component="h3">
-                            Welcome!
+                            Welcome
                         </Typography>
                         <Typography component="p">
                             Please click below to get started!
